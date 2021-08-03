@@ -2,47 +2,51 @@
         box-sizing: border-box;
     
     }
+     body{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
     .row{
         width: 100%;
     }
-    body{
-        font-family: Arial, Helvetica, sans-serif;
-    }
+   
     section{
-       border: solid black 1px;
-        background-color: gray;
-         margin: 5px;
-    }
-    p{
-        margin: 5px;
-        height: auto;
+        margin: 7px;
+        background-color: rgb(189, 189, 189);
+        border: solid black 1px;
+        
+        
     }
     .paragraph{
         clear: right;
     }
-    .chicken{
+    p{
+        margin: 3px;
+        height: auto;
+    }
+    
+    .first{
         border: black solid 1px;
         padding: 6px;
         text-align: center;
-        background-color: rgb(253, 134, 154);
+        background-color: rgb(255, 64, 96);
         float: right;
         color: white;
         font-style: bold;
     }
-    .beef{
+    .second{
         border: black solid 1px;
         padding: 6px;
         text-align: center;
-        background-color: rgb(124, 1, 1);
+        background-color: rgb(250, 0, 0);
         float: right;
         color: white;
         font-style: bold;
     }
-    .sushi{
+    .third{
         border: black solid 1px;
         padding: 6px;
         text-align: center;
-        background-color: rgb(211, 161, 0);
+        background-color: rgb(245, 211, 98);
         float: right;
         color: white;
         font-style: bold;
